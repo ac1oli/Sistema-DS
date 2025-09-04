@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: 'inter';
+}
+
+nav {
+    background-color: #343a40;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1 {
+    color: #fff;
+    margin: 0;
+    font-size: 24px;
+    
+}
+
+.caixaPesquisa{
+    display: flex;
+    justify-content: center;
+}
+
+input.caixaP{
+    width: 400px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+button.lupa{
+    padding: 10px;
+    color: white;
+    background: #000;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+h3 {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 a {
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+h3 a:hover {
+    background-color: #444;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    /* font-family: Arial, sans-serif; */
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #212529; /* preto/cinza escuro */
+    color: #fff;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f9fa; /* cinza claro */
+}
+
+tr:hover {
+    background-color: #e9ecef;
+}
+
+td {
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+td a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+body.adicionar {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding: 40px;
+}
+
+h4 a {
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+h4 a:hover {
+    background-color: #444;
+}
+
+form {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button#adicionar {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button#adicionar:hover {
+    background-color: white;
+    color: black;
+}
+
+button#editar {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button#editar:hover {
+    background-color: white;
+    color: black;
+}
+

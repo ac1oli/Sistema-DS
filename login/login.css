@@ -1,0 +1,41 @@
+body {
+    padding: 50px;
+    
+}
+
+
+.container {
+    background: #545454;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(65, 65, 70, 0.2) 0px 7px 29px 0px;
+    
+}
+
+.container h1{
+    color: white;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.formRegister {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.formRegister > p > a {
+    color: white;
+}
+
+.formLogin {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.formLogin > p > a {
+    color: white;
+}
